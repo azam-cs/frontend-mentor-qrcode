@@ -1,0 +1,56 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(222, 222, 253);
+  height: 100vh;
+}
+.container {
+  width: 250px;
+  height: 410px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 100px auto;
+}
+.images img {
+  width: 230px;
+  height: 230px;
+  border-radius: 8px;
+}
+.title {
+  font-weight: bolder;
+  font-family: cambria;
+  color: rgb(44, 44, 44);
+  width: 200px;
+  margin: 17px auto;
+  font-size: 17px;
+}
+.info {
+  color: gray;
+  font-size: 13px;
+  width: 200px;
+  margin: 5px auto;
+  font-family: cambria;
+}
+@media (max-width: 375px) {
+  .container {
+    width: 260px;
+    padding: 15px;
+  }
+  .images img {
+    width: 230px;
+
+    height: 230px;
+  }
+}
